@@ -16,7 +16,7 @@ import (
 
 	// Other optional features.
 	_ "v2ray.com/core/app/dns"
-	_ "v2ray.com/core/app/log"
+	// _ "v2ray.com/core/app/log"
 	_ "v2ray.com/core/app/policy"
 	_ "v2ray.com/core/app/reverse"
 	_ "v2ray.com/core/app/router"
@@ -29,11 +29,11 @@ import (
 	_ "v2ray.com/core/proxy/freedom"
 	_ "v2ray.com/core/proxy/http"
 	_ "v2ray.com/core/proxy/mtproto"
-	_ "v2ray.com/core/proxy/shadowsocks"
+	// _ "v2ray.com/core/proxy/shadowsocks"
 	_ "v2ray.com/core/proxy/socks"
 	_ "v2ray.com/core/proxy/trojan"
-	_ "v2ray.com/core/proxy/vless/inbound"
-	_ "v2ray.com/core/proxy/vless/outbound"
+	// _ "v2ray.com/core/proxy/vless/inbound"
+	// _ "v2ray.com/core/proxy/vless/outbound"
 	_ "v2ray.com/core/proxy/vmess/inbound"
 	_ "v2ray.com/core/proxy/vmess/outbound"
 
@@ -41,7 +41,7 @@ import (
 	_ "v2ray.com/core/transport/internet/domainsocket"
 	_ "v2ray.com/core/transport/internet/http"
 	_ "v2ray.com/core/transport/internet/kcp"
-	_ "v2ray.com/core/transport/internet/quic"
+	// _ "v2ray.com/core/transport/internet/quic"
 	_ "v2ray.com/core/transport/internet/tcp"
 	_ "v2ray.com/core/transport/internet/tls"
 	_ "v2ray.com/core/transport/internet/udp"
@@ -59,7 +59,7 @@ import (
 
 	// JSON config support. Choose only one from the two below.
 	// The following line loads JSON from v2ctl
-	_ "v2ray.com/core/main/json"
+	// _ "v2ray.com/core/main/json"
 	// The following line loads JSON internally
 	// _ "v2ray.com/core/main/jsonem"
 
